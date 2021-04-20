@@ -28,13 +28,13 @@ var Wizard = function () {
 }
 
 /**
- * Функция создает массив похожих волжебников
+ * Функция создает массив похожих волшебников
  * @return {[]}
  */
 var createSimilarWizards = function() {
   let wizards = [];
   for (let i = 0; i < NUMBER_OF_SIMILAR_WIZARDS; i++) {
-    similarWizards.push(new Wizard());
+    wizards.push(new Wizard());
   }
   return wizards;
 }
